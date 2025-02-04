@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage</title>
+    <script type="module" crossorigin src="/assets/index-SbhSK_NA.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-f6aVcGHq.css">
+  </head>
+  <body>
+    <h1>Add a Web Developer in the table</h1>
+
+    <form id="form">
+      <label for="firstName">First Name</label>
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        placeholder="Your first name.."
+      />
+      <label for="lastName">Last Name</label>
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        placeholder="Your last name.."
+      />
+      <label for="programmingLanguage">Programming Language</label>
+      <select id="programmingLanguage" name="programmingLanguage">
+        <option value="JavaScript" selected>JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+      </select>
+      <button id="send-form" type="submit">Add Web Developer</button>
+      <button id="reset-form">Delete Web Developers</button>
+    </form>
+    
+    <h2>Web Developers Table</h2>
+    <table id="developer-list"></table>
+
+  </body>
+</html>
